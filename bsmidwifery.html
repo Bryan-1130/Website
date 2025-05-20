@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BS Midwifery Program</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('ab.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      color: #000;
+    }
+
+    header {
+      background-color: royalblue;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    section {
+      margin: 40px 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: royalblue;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 220px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .center {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .back {
+      background-color: royalblue;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .back:hover {
+      background-color: #003f9e;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BS Midwifery Program</h1>
+    <p>Bachelor of Science in Midwifery</p>
+  </header>
+
+  <section id="overview">
+    <h2>Program Overview</h2>
+    <p>The Bachelor of Science in Midwifery (BSM) is a four-year ladderized degree program designed to equip students with the knowledge and skills necessary to provide comprehensive care to women throughout the childbearing cycle, including prenatal, childbirth, postpartum, and newborn care.</p>
+    <p>This program combines general education with professional courses and extensive clinical training to prepare students for licensure as registered midwives.</p>
+    <p><em>Empower your future. Embrace the calling. Excel in midwifery.</em></p>
+    <p><strong>Dahil sa Southern Mindanao Institute of Technology Inc. Midwifery Department, walang lalabas ng walang alam.</strong></p>
+  </section>
+
+  <section id="gallery">
+    <h2>Activities</h2>
+    <div class="gallery">
+      <img src="md.jpg">
+      <img src="pp.jpg">
+      <img src="dd.jpg">
+      <img src="mm.jpg">
+      <img src="fs.jpg">
+      <img src="nn.jpg">
+      <img src="cb.jpg">
+      <img src="sa.jpg">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Visit Us</h2>
+    <p>www.facebook.com: smit midwifery department</p>
+  </section>
+
+  <div class="center">
+    <a href="homepage.html"><button class="back">Back</button></a>
+  </div>
+
+</body>
+</html>
